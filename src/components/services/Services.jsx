@@ -34,7 +34,7 @@ const Services = () => {
             <h2 className="section__title">Services</h2>
 
 
-            <div className="services__container grid">
+            <div className="services__container grid cursor-pointer">
                 {data.map(({ id, image, title, description }) => {
                     return (
                         <div className="services__card" key={id}>

@@ -4,7 +4,7 @@ import { BiBadgeCheck } from 'react-icons/bi'
 
 const AboutBox = () => {
     return (
-        <div className="about__boxes grid">
+        <div className="about__boxes grid grid-cols-2 md:grid-cols-4">
             <div className="about__box">
                 <div className="about__icon">
                     <AiOutlineFire />

@@ -1,4 +1,3 @@
-import Logo from '../../assets/logo.svg'
 import { BiHome, BiUser, BiBriefcase, BiLayer } from 'react-icons/bi'
 import { FaUserGraduate } from 'react-icons/fa'
 import { MdEditNote } from 'react-icons/md'
@@ -11,7 +10,8 @@ const Sidebar = () => {
     return (
         <aside className="aside">
             <a href="#home" className="nav__logo">
-                <img src={Logo} alt="logo" />
+                {/* <img src={Logo} alt="logo" /> */}
+                <div className='text-2xl font-bold bg-orange-400 w-9 h-9 rounded-full flex justify-center items-center'>R</div>
             </a>
 
             <nav className='nav'>

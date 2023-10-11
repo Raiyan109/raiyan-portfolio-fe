@@ -16,7 +16,7 @@
 .nav__list {
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 1.5rem;
 }
 
 .nav__link {
@@ -27,6 +27,7 @@
 
 .nav__link:hover {
     color: hsl(43, 100%, 68%);
+    transition: all 0.2s;
 }
 
 .copyright {
