@@ -14,8 +14,16 @@ const Home = () => {
 
                 <HeaderSocials />
 
-                <a href="#contact" className="btn">Hire Me !</a>
+                {/* <a href="#contact" className="btn">Hire Me !
 
+                </a> */}
+
+                <ul >
+                    <li className='btn'>
+                        home
+                        <span></span><span></span><span></span><span></span>
+                    </li>
+                </ul>
                 <ScrollDown />
             </div>
 
