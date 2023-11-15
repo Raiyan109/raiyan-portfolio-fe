@@ -154,7 +154,7 @@ img {
     font-weight: var(--font-bold);
 }
 
-@keyframes button-push {
+/* @keyframes button-push {
     50% {
         transform: scale(0.8);
     }
@@ -166,4 +166,4 @@ img {
 
 .btn:hover {
     animation: button-push 0.3s linear 1;
-}
+} */
