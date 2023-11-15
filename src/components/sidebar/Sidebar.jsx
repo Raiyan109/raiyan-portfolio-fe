@@ -11,7 +11,7 @@ const Sidebar = () => {
         <aside className="aside">
             <a href="#home" className="nav__logo">
                 {/* <img src={Logo} alt="logo" /> */}
-                <div className='text-2xl font-bold bg-orange-400 w-9 h-9 rounded-full flex justify-center items-center'>R</div>
+                <div className='text-md md:text-2xl  font-bold bg-orange-400 w-6 h-6 md:w-9 md:h-9 rounded-full flex justify-center items-center'>R</div>
             </a>
 
             <nav className='nav'>
@@ -47,7 +47,7 @@ const Sidebar = () => {
                             </a>
                         </li>
 
-                        <li className='nav__item'>
+                        {/* <li className='nav__item'>
                             <a href="#blog" className="nav__link">
                                 <MdEditNote />
                             </a>
@@ -57,7 +57,7 @@ const Sidebar = () => {
                             <a href="#contact" className="nav__link">
                                 <HiOutlineChatBubbleBottomCenterText />
                             </a>
-                        </li>
+                        </li> */}
 
                     </ul>
                 </div>

@@ -7,21 +7,21 @@ const data = [
     {
         id: 1,
         image: img1,
-        title: "UI/UX design",
+        title: "Frontend Development",
         description:
             "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
     },
     {
         id: 2,
         image: img2,
-        title: "Web Development",
+        title: "Full Stack Development",
         description:
             "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
     },
     {
         id: 3,
         image: img3,
-        title: "Photography",
+        title: "Translation",
         description:
             "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
     },

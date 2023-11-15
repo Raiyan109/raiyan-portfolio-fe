@@ -102,3 +102,10 @@
 }
 
 .work__button-icon {}
+
+@media screen and (max-width:764px) {
+    .work__container {
+        grid-template-columns: 1fr;
+        gap: 1.875rem;
+    }
+}

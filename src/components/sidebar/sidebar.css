@@ -36,3 +36,15 @@
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
 }
+
+@media screen and (max-width:764px) {
+    .aside {
+        padding: 1.7rem;
+        width: 70px;
+    }
+
+    .nav__link {
+        font-size: 1.2rem;
+
+    }
+}
