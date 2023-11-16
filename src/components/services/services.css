@@ -45,11 +45,11 @@
 }
 
 .services__card:nth-child(2) .services__title {
-    color: var(--title-color);
+    /* color: var(--title-color); */
 }
 
 .services__card:nth-child(2) .services__desc {
-    color: var(--text-color);
+    /* color: var(--title-color); */
 }
 
 @media screen and (max-width:764px) {

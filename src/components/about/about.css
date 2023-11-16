@@ -65,7 +65,7 @@
 
 
 .skills__bar {
-    background-color: #f1f1f1;
+    background-color: var(--container-color);
 }
 
 .skills__percentage {
@@ -101,7 +101,7 @@
 
 .about__icon {
     font-size: var(--h1-font-size);
-    color: #dedeea;
+    color: var(--text-color);
 }
 
 .about__title {
@@ -111,3 +111,9 @@
 .about__subtitle {}
 
 .about__boxes {}
+
+@media screen and (max-width:764px) {
+    .about__img {
+        display: none;
+    }
+}

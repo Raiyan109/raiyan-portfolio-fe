@@ -4,14 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-:root {
-    --first-color: hsl(353, 100%, 65%);
+/* 
+ --first-color: hsl(353, 100%, 65%);
     --title-color: hsl(244, 24%, 26%);
     --text-color: hsl(244, 16%, 43%);
     --body-color: hsl(258, 60%, 98%);
     --container-color: #fff;
+*/
+
+:root {
+    --first-color: #140152;
+    --title-color: #A3E7FC;
+    --text-color: #A3E7FC;
+    --body-color: #02010a;
+    --container-color: #04052e;
 
     /* ====================Font and Typography===================== */
     /* .5rem = 8px  |  1rem = 16px */
@@ -115,7 +121,7 @@ img {
 
 .grid {
     display: grid;
-
+    /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 
@@ -148,7 +154,7 @@ img {
     border-radius: 1.875rem;
     box-shadow: 0 0 1px rgb(0 0 0 / 0%);
     border: 1px solid transparent;
-    color: #fff;
+    color: var(--text-color);
     display: inline-block;
     background-color: var(--first-color);
     font-weight: var(--font-bold);
@@ -167,3 +173,11 @@ img {
 .btn:hover {
     animation: button-push 0.3s linear 1;
 } */
+
+@media screen and (max-width:764px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

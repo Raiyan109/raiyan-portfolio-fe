@@ -9,21 +9,21 @@ const data = [
         image: img1,
         title: "Frontend Development",
         description:
-            "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+            "With my extensive experience in Frontend Development I have been able to build up a wide range of skills that will help you grow your business.",
     },
     {
         id: 2,
         image: img2,
         title: "Full Stack Development",
         description:
-            "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+            "I'll surely provide you a quality and on-time services. I am more than happy to have a brief discussion about your problem in a relaxed and user-friendly environment. I worked for so many clients with Positive feedback's and have good relations with them.",
     },
     {
         id: 3,
         image: img3,
         title: "Translation",
         description:
-            "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+            " Native Bangla speaker with years of training in Professional Arabic Translation, eager to help you. Also have a Dawrah Hadith Degree and experience in the translation field.",
     },
 ];
 
