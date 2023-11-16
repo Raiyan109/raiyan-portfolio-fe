@@ -109,3 +109,11 @@
         gap: 1.875rem;
     }
 }
+
+@media screen and (max-width:764px) {
+    .work__filters {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
