@@ -124,6 +124,11 @@ img {
     /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
+/* Skills grid for about skills */
+.skills-grid {
+    display: grid;
+}
+
 
 .section {
     padding-top: 7rem;
@@ -178,6 +183,22 @@ img {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:765px) and (max-width:1281px) {
+
+    .container {
+        padding-left: 55px;
+        padding-right: 55px;
+
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
 }

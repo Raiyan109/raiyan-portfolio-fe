@@ -20,7 +20,7 @@ const About = () => {
                         <a href="https://drive.google.com/file/d/1t5I2y-UPJUI3gOdkcSHiVIANWcdcfmze/view?usp=sharing" rel='noopener noreferrer' target='_blank' className="btn">Download Resume</a>
                     </div>
 
-                    <div className="about__skills grid">
+                    <div className="about__skills skills-grid">
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className="skills__name">Development</h3>
