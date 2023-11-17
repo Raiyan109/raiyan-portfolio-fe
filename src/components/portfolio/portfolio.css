@@ -32,7 +32,8 @@
 .work__img {}
 
 .work__mask {
-    background: #6c6cef;
+    background: var(--first-color);
+    /* background: #6c6cef; */
     position: absolute;
     left: 0;
     top: 0;
@@ -80,7 +81,8 @@
     left: 1.5rem;
     font-size: var(--h3-font-size);
     display: block;
-    background-color: #ffd15c;
+    background-color: var(--text-color);
+    /* background-color: #ffd15c; */
     height: 40px;
     width: 40px;
     cursor: pointer;

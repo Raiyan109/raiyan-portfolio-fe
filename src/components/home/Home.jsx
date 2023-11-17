@@ -7,16 +7,25 @@ import Shapes from './Shapes';
 const Home = () => {
     return (
         <section className="home container" id="home">
-            <div className="intro">
-                {/* <img src={Me} alt="me" className="home__img" /> */}
-                <h1 className="home__name">Raiyan Kabir</h1>
-                <span className="home__education">I am a Frontend Developer</span>
+            <div className="intro"
 
-                <HeaderSocials />
+            >
+                <div
+                    data-aos='zoom-in'
+                    data-aos-delay='50'
+                    data-aos-duration='1000'
+                    data-aos-easing='ease-in-out'
+                >
+                    {/* <img src={Me} alt="me" className="home__img" /> */}
+                    <h1 className="home__name">Raiyan Kabir</h1>
+                    <span className="home__education">I am a Frontend Developer</span>
 
-                <a href="#contact" className="btn">Hire Me !
+                    <HeaderSocials />
 
-                </a>
+                    <a href="#contact" className="btn">Hire Me !
+
+                    </a>
+                </div>
 
 
                 <ScrollDown />

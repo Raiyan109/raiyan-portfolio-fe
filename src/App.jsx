@@ -9,6 +9,10 @@ import Portfolio from './components/portfolio/Portfolio'
 // import Testimonials from './components/testimonials/Testimonials'
 import Blog from './components/blog/Blog'
 import Contact from './components/contact/Contact'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+AOS.init()
 
 function App() {
 
