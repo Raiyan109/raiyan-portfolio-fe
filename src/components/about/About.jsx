@@ -11,9 +11,17 @@ const About = () => {
             </h2>
 
             <div className="about__container grid">
-                <img src={aboutImg} alt="" className="about__img" />
+                <img src={aboutImg} alt="" className="about__img" data-aos='zoom-in'
+                    data-aos-delay='50'
+                    data-aos-duration='1000'
+                    data-aos-easing='ease-in-out' />
 
-                <div className="about__data grid">
+                <div className="about__data grid"
+                    data-aos='zoom-in'
+                    data-aos-delay='50'
+                    data-aos-duration='1000'
+                    data-aos-easing='ease-in-out'
+                >
                     <div className="about__info">
                         <p className="about_desc">I am Raiyan Kabir, a frontend developer. I live in coding. And I believe in Quality. I enjoy learning new technologies and listening to web development podcasts in Bangla. I am open to hearing new perspectives, reach out if you want to be a mate in creating shining real-world web apps!
                         </p>

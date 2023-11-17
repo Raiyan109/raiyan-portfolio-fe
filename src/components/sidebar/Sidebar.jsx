@@ -51,13 +51,13 @@ const Sidebar = () => {
                             <a href="#blog" className="nav__link">
                                 <MdEditNote />
                             </a>
-                        </li>
+                        </li> */}
 
                         <li className='nav__item'>
                             <a href="#contact" className="nav__link">
                                 <HiOutlineChatBubbleBottomCenterText />
                             </a>
-                        </li> */}
+                        </li>
 
                     </ul>
                 </div>

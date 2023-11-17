@@ -13,7 +13,12 @@ const Portfolio = () => {
     }
 
     return (
-        <section className="work container section" id="portfolio">
+        <section className="work container section" id="portfolio"
+            data-aos='zoom-in'
+            data-aos-delay='50'
+            data-aos-duration='1000'
+            data-aos-easing='ease-in-out'
+        >
             <h2 className="section__title">Recent Works</h2>
 
             <div className="work__filters">

@@ -3,7 +3,12 @@ import Data from "./Data";
 import './resume.css'
 const Resume = () => {
     return (
-        <section className="resume container section" id="resume">
+        <section className="resume container section" id="resume"
+            data-aos='zoom-in'
+            data-aos-delay='50'
+            data-aos-duration='1000'
+            data-aos-easing='ease-in-out'
+        >
             <h2 className="section__title">Experience</h2>
 
             <div className="resume__container grid">

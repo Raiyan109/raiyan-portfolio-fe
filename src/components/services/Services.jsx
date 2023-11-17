@@ -30,7 +30,12 @@ const data = [
 
 const Services = () => {
     return (
-        <section className="services container section" id='services'>
+        <section className="services container section" id='services'
+            data-aos='zoom-in'
+            data-aos-delay='50'
+            data-aos-duration='1000'
+            data-aos-easing='ease-in-out'
+        >
             <h2 className="section__title">Services</h2>
 
 

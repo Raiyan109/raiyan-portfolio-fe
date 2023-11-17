@@ -2,8 +2,13 @@ import './contact.css'
 
 const Contact = () => {
     return (
-        <div>
-            <div className="card">
+        <div id='contact'>
+            <div className="card"
+                data-aos='zoom-in'
+                data-aos-delay='50'
+                data-aos-duration='1000'
+                data-aos-easing='ease-in-out'
+            >
                 <h2 className=''>Contact Me</h2>
                 <div className="row">
                     <div className="col">
