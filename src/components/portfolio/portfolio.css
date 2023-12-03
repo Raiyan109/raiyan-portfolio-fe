@@ -9,10 +9,13 @@
     cursor: pointer;
     font-weight: var(--font-bold);
     transition: .3s;
+    padding: 3px 3px;
+    border-radius: 50px;
 }
 
 .work__item:hover {
     color: var(--first-color);
+    background-color: var(--title-color);
 }
 
 .work__container {
@@ -25,6 +28,7 @@
     overflow: hidden;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
+
 }
 
 .work__thumbnail {}

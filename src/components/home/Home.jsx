@@ -11,14 +11,20 @@ const Home = () => {
 
             >
                 <div
-                    data-aos='zoom-in'
-                    data-aos-delay='50'
-                    data-aos-duration='1000'
-                    data-aos-easing='ease-in-out'
+                // data-aos='zoom-in'
+                // data-aos-delay='50'
+                // data-aos-duration='1000'
+                // data-aos-easing='ease-in-out'
                 >
                     {/* <img src={Me} alt="me" className="home__img" /> */}
-                    <h1 className="home__name">Raiyan Kabir</h1>
-                    <span className="home__education">I am a Frontend Developer</span>
+                    <h1 className="home__name"
+                    // data-aos="fade-right"
+                    // data-aos-offset="200"
+                    // data-aos-easing="linear"
+                    // data-aos-delay='40'
+                    // data-aos-duration='800'
+                    >Raiyan Kabir</h1>
+                    <span className="home__education">A Frontend Developer</span>
 
                     <HeaderSocials />
 

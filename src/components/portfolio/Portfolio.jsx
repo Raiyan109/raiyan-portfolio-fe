@@ -32,7 +32,7 @@ const Portfolio = () => {
             <div className="work__container grid">
                 {
                     items.map((item) => {
-                        const { id, image, title, category } = item
+                        const { id, image, title, category, liveLink } = item
                         return (
                             <div className="work__card" key={id}>
                                 <div className="work__thumbnail">
@@ -42,7 +42,10 @@ const Portfolio = () => {
 
                                 <span className="work__category">{category}</span>
                                 <h3 className="work__title">{title}</h3>
-                                <a href="#" className="work__button">
+                                <a href={liveLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="work__button">
                                     <BsLink45Deg className='work__button-icon absolute top-3 left-3' />
                                 </a>
                             </div>
