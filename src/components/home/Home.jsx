@@ -29,7 +29,6 @@ const Home = () => {
                     <HeaderSocials />
 
                     <a href="#contact" className="btn">Hire Me !
-
                     </a>
                 </div>
 
