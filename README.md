@@ -11,3 +11,6 @@ https://chukwuemeke.netlify.app//?ref=prettyfolio
 
 [Simple Card HOver](https://www.youtube.com/watch?v=3RvQJX1_fKQ)
 [Simple Card HOver Effect](https://www.youtube.com/watch?v=dcUK7KZ3Dmo)
+
+
+[Scroll animation on the top used from here](https://codesandbox.io/s/framer-motion-usescroll-xwdxbt?from-embed)

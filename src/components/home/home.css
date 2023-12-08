@@ -6,6 +6,16 @@
     justify-content: center;
 }
 
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: var(--text-color);
+    transform-origin: 0%;
+}
+
 .intro {
     max-width: 540px;
     text-align: center;

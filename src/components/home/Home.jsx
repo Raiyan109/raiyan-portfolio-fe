@@ -3,13 +3,22 @@ import './home.css'
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 import Shapes from './Shapes';
+import { motion, useScroll, useSpring } from "framer-motion";
 
 const Home = () => {
+    const { scrollYProgress } = useScroll();
+    const scaleX = useSpring(scrollYProgress, {
+        stiffness: 100,
+        damping: 30,
+        restDelta: 0.001
+    });
     return (
         <section className="home container" id="home">
-            <div className="intro"
-
-            >
+            <div className="intro">
+                <motion.div
+                    className="progress-bar"
+                    style={{ scaleX }}
+                />
                 <div
                 // data-aos='zoom-in'
                 // data-aos-delay='50'
@@ -29,7 +38,6 @@ const Home = () => {
                     <HeaderSocials />
 
                     <a href="#contact" className="btn">Hire Me !
-
                     </a>
                 </div>
 
