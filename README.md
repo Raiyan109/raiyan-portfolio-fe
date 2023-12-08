@@ -14,3 +14,13 @@ https://chukwuemeke.netlify.app//?ref=prettyfolio
 
 
 [Scroll animation on the top used from here](https://codesandbox.io/s/framer-motion-usescroll-xwdxbt?from-embed)
+
+[Ripple Effects](https://freefrontend.com/css-ripple-effects/)
+
+https://codepen.io/keeann/pen/RmEbav
+https://codepen.io/oscar-jite/pen/oNGraoJ
+https://codepen.io/Ks145/pen/MWGxbYr
+
+[JS libraries for stunning portfolio](https://hbakouane.medium.com/5-javascript-libraries-that-will-help-you-build-your-stunning-portfolio-678fca8fd451)
+
+[Portfolio example](https://www.awwwards.com/sites/alexander-garcia-portfolio)
