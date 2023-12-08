@@ -3,13 +3,17 @@ import './home.css'
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 import Shapes from './Shapes';
+import { motion, useScroll } from "framer-motion";
 
 const Home = () => {
+    const { scrollYProgress } = useScroll();
     return (
         <section className="home container" id="home">
-            <div className="intro"
-
-            >
+            <div className="intro">
+                <motion.div
+                    className="progress-bar"
+                    style={{ scaleX: scrollYProgress }}
+                />
                 <div
                 // data-aos='zoom-in'
                 // data-aos-delay='50'
