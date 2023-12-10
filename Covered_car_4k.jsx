@@ -9,7 +9,7 @@ import { useGLTF } from '@react-three/drei'
 export function CoveredCar(props) {
   const { nodes, materials } = useGLTF('/covered-car/covered_car_4k.gltf')
   return (
-    <group {...props} dispose={null}>
+    <group {...props} dispose={null} scale={3}>
       <mesh geometry={nodes.covered_car_wheel_01.geometry} material={materials.covered_car} position={[0.758, 0.3, 1.281]} />
       <mesh geometry={nodes.covered_car_wheel_02.geometry} material={materials.covered_car} position={[-0.682, 0.3, 1.281]} />
       <mesh geometry={nodes.covered_car_wheel_03.geometry} material={materials.covered_car} position={[-0.672, 0.3, -1.299]} />

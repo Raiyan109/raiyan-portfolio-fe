@@ -39,3 +39,6 @@ https://github.khronos.org/glTF-Sample-Viewer-Release/
 https://polyhaven.com/a/covered_car
 https://codesandbox.io/p/sandbox/framer-motion-scroll-velocity-r1dy4u?file=%2Fsrc%2Fstyles.css
 https://framerbook.com/animation/example-animations/34-swapping-elements/
+
+- Articles, docs and videos helped for three js implementation: 
+[Video](https://www.youtube.com/watch?v=tBSbgRRpNzI)

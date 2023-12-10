@@ -4,6 +4,7 @@ import ScrollDown from './ScrollDown';
 import { motion, useScroll, useSpring } from "framer-motion";
 import AnimatedText from '../animatedText/AnimatedText';
 import AnimatedText2 from '../animatedText/AnimatedText2';
+import GlowingBtn from '../buttons/GlowingBtn';
 
 const Home = () => {
     const { scrollYProgress } = useScroll();
@@ -26,17 +27,18 @@ const Home = () => {
                 // data-aos-easing='ease-in-out'
                 >
                     {/* <img src={Me} alt="me" className="home__img" /> */}
-                    {/* <h1 className="home__name"
-                   
-                    >Raiyan Kabir</h1>
-                    <span className="home__education">A Frontend Developer</span> */}
+                    <h1 className="home__name"
 
-                    <AnimatedText text='Raiyan Kabir' />
+                    >Raiyan Kabir</h1>
+                    {/* <span className="home__education">A Frontend Developer</span> */}
+
+                    {/* <AnimatedText text='Raiyan Kabir' /> */}
                     <AnimatedText2 text='Frontend Developer' />
                     <HeaderSocials />
 
-                    <a href="#contact" className="btn">Hire Me !
-                    </a>
+                    {/* <a href="#contact" className="btn">Hire Me !
+                    </a> */}
+                    <GlowingBtn />
                 </div>
 
 
