@@ -11,6 +11,8 @@ import Blog from './components/blog/Blog'
 import Contact from './components/contact/Contact'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import ScrollVelozity from './components/scrollVelozity/ScrollVelozity'
+import About2 from './components/about/About2'
 
 AOS.init()
 
@@ -22,7 +24,9 @@ function App() {
         <Sidebar />
         <div className="main">
           <Home />
+          <About2 />
           <About />
+          <ScrollVelozity />
           <Services />
           <Resume />
           <Portfolio />
