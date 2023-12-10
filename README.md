@@ -24,3 +24,18 @@ https://codepen.io/Ks145/pen/MWGxbYr
 [JS libraries for stunning portfolio](https://hbakouane.medium.com/5-javascript-libraries-that-will-help-you-build-your-stunning-portfolio-678fca8fd451)
 
 [Portfolio example](https://www.awwwards.com/sites/alexander-garcia-portfolio)
+
+[Countup library used](https://www.npmjs.com/package/react-countup)
+
+[Cursor animation](https://codesandbox.io/p/sandbox/custom-cursor-with-framer-motion-n6i55?file=%2Fsrc%2Findex.js%3A21%2C1)
+
+[Cursor](https://framermotionplayground.com/tutorial/custom-cursor)
+
+[Custom Cursors](https://www.youtube.com/watch?v=nr3U-RpaQuM)
+
+[Animated Text](https://www.youtube.com/watch?v=wgXLE_GZ9sM)
+
+https://github.khronos.org/glTF-Sample-Viewer-Release/
+https://polyhaven.com/a/covered_car
+https://codesandbox.io/p/sandbox/framer-motion-scroll-velocity-r1dy4u?file=%2Fsrc%2Fstyles.css
+https://framerbook.com/animation/example-animations/34-swapping-elements/

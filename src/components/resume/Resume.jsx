@@ -9,7 +9,7 @@ const Resume = () => {
             data-aos-duration='1000'
             data-aos-easing='ease-in-out'
         >
-            <h2 className="section__title">Experience</h2>
+            <h2 className="section__title">Education & Experience</h2>
 
             <div className="resume__container grid">
                 <div className="timeline skills-grid">

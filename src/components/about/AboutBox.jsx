@@ -1,6 +1,7 @@
 import { AiOutlineFire } from 'react-icons/ai'
 import { BsCupHot, BsPeople } from 'react-icons/bs'
 import { BiBadgeCheck } from 'react-icons/bi'
+import CountUp from 'react-countup';
 
 const AboutBox = () => {
     return (
@@ -16,7 +17,12 @@ const AboutBox = () => {
                 </div>
 
                 <div>
-                    <h3 className="about__title">10+</h3>
+                    <h3 className="about__title">
+                        <CountUp
+                            end={10}
+                            delay={0.95}
+                            duration={4}
+                        />+</h3>
                     <span className="about__subtitle">Project Completed</span>
                 </div>
             </div>
@@ -27,7 +33,11 @@ const AboutBox = () => {
                 </div>
 
                 <div>
-                    <h3 className="about__title">5670</h3>
+                    <h3 className="about__title"><CountUp
+                        end={20}
+                        delay={0.95}
+                        duration={4}
+                    /></h3>
                     <span className="about__subtitle">Cup of coffee</span>
                 </div>
             </div>
@@ -38,7 +48,13 @@ const AboutBox = () => {
                 </div>
 
                 <div>
-                    <h3 className="about__title">5</h3>
+                    <h3 className="about__title">
+                        <CountUp
+                            end={5}
+                            delay={0.95}
+                            duration={4}
+                        />
+                    </h3>
                     <span className="about__subtitle">Satisfied clients</span>
                 </div>
             </div>
@@ -49,8 +65,12 @@ const AboutBox = () => {
                 </div>
 
                 <div>
-                    <h3 className="about__title">427</h3>
-                    <span className="about__subtitle">Nominees winner</span>
+                    <h3 className="about__title"><CountUp
+                        end={3}
+                        delay={0.95}
+                        duration={2}
+                    /></h3>
+                    <span className="about__subtitle">Months of experience</span>
                 </div>
             </div>
         </div>
