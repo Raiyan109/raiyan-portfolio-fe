@@ -42,3 +42,29 @@ https://framerbook.com/animation/example-animations/34-swapping-elements/
 
 - Articles, docs and videos helped for three js implementation: 
 [Video](https://www.youtube.com/watch?v=tBSbgRRpNzI)
+
+[download resume](https://stackoverflow.com/questions/57083785/button-to-download-a-file-in-reactjs)
+
+[Laptop 3d model from here](https://sketchfab.com/3d-models/laptop-1-51aad26d1c544351ada8ff72a9d30b4d)
+
+
+[gltfjsx](https://github.com/pmndrs/gltfjsx)
+
+[Scrollable animated header (video 2:30)](https://www.youtube.com/watch?v=He1_AH6kC8Y)
+
+
+[Animated card hover effect](https://www.youtube.com/watch?v=McPdzhLRzCg)
+
+[Contact form](https://dribbble.com/shots/14983260-Contact-Form/attachments/6703273?mode=media)
+
+[Developers portfolios](https://github.com/emmabostian/developer-portfolios?tab=readme-ov-file)
+
+https://ananto.netlify.app/
+https://growhut.in/
+https://react.gg/#register
+
+[Link hover effect with Tailwind and Framer motion](https://www.youtube.com/watch?v=UehICfn_OnY)
+
+[Framer motion playground](https://framermotionplayground.com/tutorial/link-animation)
+
+[Hover dev](https://www.hover.dev/)
