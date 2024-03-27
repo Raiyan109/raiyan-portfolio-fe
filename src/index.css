@@ -15,8 +15,9 @@
 
 :root {
     --first-color: #140152;
-    --title-color: #A3E7FC;
-    --text-color: #A3E7FC;
+    --title-color: #a2e1f5;
+    /* --title-color: #A3E7FC; */
+    --text-color: #a2e1f5;
     --body-color: #02010a;
     --container-color: #04052e;
 

@@ -13,17 +13,12 @@ const Contact = () => {
                 <div className="row">
                     <div className="col">
                         <div className="form-group">
-                            <label>First Name</label>
+                            <label>Name</label>
                             <input type="text" />
                         </div>
                     </div>
 
-                    <div className="col">
-                        <div className="form-group">
-                            <label>Surname</label>
-                            <input type="text" />
-                        </div>
-                    </div>
+
 
                     <div className="col">
                         <div className="form-group">
@@ -32,12 +27,12 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="col">
+                    {/* <div className="col">
                         <div className="form-group">
                             <label>Phone</label>
                             <input type="text" />
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="col">
                         <div className="form-group">

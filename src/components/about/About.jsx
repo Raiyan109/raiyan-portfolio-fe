@@ -16,20 +16,20 @@ const About = () => {
                     data-aos-duration='1000'
                     data-aos-easing='ease-in-out' />
 
-                <div className="about__data grid"
+                <div className="about__data "
                     data-aos='zoom-in'
                     data-aos-delay='50'
                     data-aos-duration='1000'
                     data-aos-easing='ease-in-out'
                 >
                     <div className="about__info">
-                        <p className="about_desc">I am Raiyan Kabir, a frontend developer. I live in coding. And I believe in Quality. I enjoy learning new technologies and listening to web development podcasts in Bangla. I am open to hearing new perspectives, reach out if you want to be a mate in creating shining real-world web apps!
+                        <p className="about_desc text-xl leading-loose">I am Raiyan Kabir, a frontend developer. I live in coding. And I believe in Quality. I enjoy learning new technologies and listening to web development podcasts in Bangla. I am open to hearing new perspectives, reach out if you want to be a mate in creating shining real-world web apps!
                         </p>
                         <a href="https://drive.google.com/file/d/1Nuu6q07AsMKpeYXOMnATLyL3f2Ac9o4M/view?usp=sharing
-" rel='noopener noreferrer' target='_blank' className="btn">Download Resume</a>
+                        " rel='noopener noreferrer' target='_blank' className="btn">Download Resume</a>
                     </div>
 
-                    <div className="about__skills skills-grid">
+                    {/* <div className="about__skills skills-grid">
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className="skills__name">Development</h3>
@@ -62,7 +62,7 @@ const About = () => {
                                 <span className="skills__percentage photography"></span>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
