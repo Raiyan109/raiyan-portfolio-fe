@@ -2,7 +2,7 @@ import './home.css'
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 import { motion, useScroll, useSpring } from "framer-motion";
-import AnimatedText from '../animatedText/AnimatedText';
+// import AnimatedText from '../animatedText/AnimatedText';
 import AnimatedText2 from '../animatedText/AnimatedText2';
 import GlowingBtn from '../buttons/GlowingBtn';
 

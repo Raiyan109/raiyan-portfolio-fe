@@ -68,3 +68,7 @@ https://react.gg/#register
 [Framer motion playground](https://framermotionplayground.com/tutorial/link-animation)
 
 [Hover dev](https://www.hover.dev/)
+[Animated portfolio lama dev](https://www.youtube.com/watch?v=CHGHuF24Cjw)
+[Animated portfolio lama dev](https://www.youtube.com/watch?v=CHGHuF24Cjw)
+[Hero Animation with React JS, Tailwind CSS & Framer Motion](https://www.youtube.com/watch?v=DDgvBtMvcqY)
+

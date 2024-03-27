@@ -24,7 +24,6 @@ function App() {
         <Sidebar />
         <div className="main">
           <Home />
-          <About2 />
           <About />
           <ScrollVelozity />
           <Services />
@@ -34,6 +33,7 @@ function App() {
           {/* <Testimonials /> */}
           <Blog />
           <Contact />
+          <About2 />
         </div>
       </div>
     </>
