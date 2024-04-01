@@ -36,15 +36,14 @@
 .work__img {}
 
 .work__mask {
-    background: var(--first-color);
-    /* background: #6c6cef; */
+    /* background: var(--first-color);
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
     transition: .3s;
-    opacity: 0;
+    opacity: 0; */
 }
 
 .work__card:hover .work__mask {
