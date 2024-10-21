@@ -1,0 +1,1 @@
+[Animated modal](https://fireship.io/lessons/framer-motion-modal/)
