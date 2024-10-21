@@ -6,10 +6,22 @@
     justify-content: center;
 }
 
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: var(--text-color);
+    transform-origin: 0%;
+}
+
 .intro {
-    max-width: 540px;
+    /* max-width: 540px; */
+    width: 100%;
     text-align: center;
     z-index: 1;
+    /* background-color: cadetblue; */
 }
 
 .home__img {
