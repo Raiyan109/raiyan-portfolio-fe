@@ -3,6 +3,7 @@ import Custom404 from "../components/errorPage/Custom404";
 import HomeLayout from "../components/layout/home/HomeLayout";
 import AdminDashboard from "../components/layout/dashboard/AdminDashboard";
 import AdminWelcome from "../components/layout/dashboard/AdminWelcome";
+import AdminLogin from "../components/layout/dashboard/AdminLogin";
 
 
 
@@ -12,6 +13,10 @@ const routes = createBrowserRouter([
         element: <HomeLayout />,
     },
     {
+        path: "/admin-login",
+        element: <AdminLogin />,
+    },
+    {
         path: "admin-dashboard",
         element: <AdminDashboard />,
         children: [
@@ -19,10 +24,6 @@ const routes = createBrowserRouter([
                 path: "/admin-dashboard",
                 element: <AdminWelcome />,
             },
-            // {
-            //     path: "facilities-table",
-            //     element: <FacilitiesTable />,
-            // },
             // {
             //     path: "create-facility",
             //     element: <CreateFacility />,
