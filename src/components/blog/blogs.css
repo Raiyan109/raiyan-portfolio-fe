@@ -1,0 +1,23 @@
+.blogGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media screen and (max-width:764px) {
+    .blogGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:765px) and (max-width:1281px) {
+
+    .blogGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}

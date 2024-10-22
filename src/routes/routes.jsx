@@ -5,6 +5,7 @@ import AdminDashboard from "../components/layout/dashboard/AdminDashboard";
 import AdminWelcome from "../components/layout/dashboard/AdminWelcome";
 import AdminLogin from "../components/layout/dashboard/AdminLogin";
 import CreateBlog from "../components/createBlog/CreateBlog";
+import BlogDetails from "../components/blog/BlogDetails";
 
 
 
@@ -12,6 +13,10 @@ const routes = createBrowserRouter([
     {
         path: "/",
         element: <HomeLayout />,
+    },
+    {
+        path: "/blogs/:id",
+        element: <BlogDetails />,
     },
     {
         path: "/admin-login",

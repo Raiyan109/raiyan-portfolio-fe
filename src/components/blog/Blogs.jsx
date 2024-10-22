@@ -26,7 +26,7 @@ const Blogs = () => {
             >
                 <h1 className='text-5xl lg:text-[90px] mb-8'>Blog</h1>
                 <div className="flex justify-center items-center">
-                    <div>
+                    <div className="blogGrid">
                         {
                             blogs.length > 0 ? (
                                 blogs.map((blog) => (
