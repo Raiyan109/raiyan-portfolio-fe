@@ -7,6 +7,7 @@ import Resume from "../../resume/Resume"
 import ScrollVelozity from "../../scrollVelozity/ScrollVelozity"
 import Services from "../../services/Services"
 import Sidebar from "../../sidebar/Sidebar"
+import Skills from "../../skills/Skills"
 
 
 const HomeLayout = () => {
@@ -21,6 +22,7 @@ const HomeLayout = () => {
                     <About />
                     <ScrollVelozity />
                     <Services />
+                    <Skills />
                     <Resume />
                     <Portfolio />
                     {/* <Pricing /> */}
