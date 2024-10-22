@@ -74,11 +74,11 @@ const Sidebar = () => {
                                 </a>
                             </li>
 
-                            {/* <li className='nav__item'>
-                            <a href="#blog" className="nav__link">
-                                <MdEditNote />
-                            </a>
-                        </li> */}
+                            <li className='nav__item'>
+                                <a href="#blog" className="nav__link">
+                                    <MdEditNote />
+                                </a>
+                            </li>
 
                             <li className='nav__item'>
                                 <a href="#contact" className="nav__link">

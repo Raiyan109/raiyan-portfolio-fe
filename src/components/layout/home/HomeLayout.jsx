@@ -1,5 +1,5 @@
 import About from "../../about/About"
-import Blog from "../../blog/Blog"
+import Blogs from "../../blog/Blogs"
 import Contact from "../../contact/Contact"
 import Home from "../../home/Home"
 import Portfolio from "../../portfolio/Portfolio"
@@ -25,7 +25,7 @@ const HomeLayout = () => {
                     <Portfolio />
                     {/* <Pricing /> */}
                     {/* <Testimonials /> */}
-                    <Blog />
+                    <Blogs />
                     <Contact />
                 </div>
             </div>

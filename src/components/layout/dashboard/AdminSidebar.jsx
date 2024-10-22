@@ -37,10 +37,10 @@ const AdminSidebar = () => {
     return (
         <div className='relative'>
             <aside className="aside fixed hidden md:flex">
-                <a href="#home" className="nav__logo">
+                <Link to='/' className="nav__logo">
                     {/* <img src={Logo} alt="logo" /> */}
                     <div className='text-md md:text-2xl  font-bold bg-[#04052E] w-6 h-6 md:w-9 md:h-9 rounded-full flex justify-center items-center'>R</div>
-                </a>
+                </Link>
 
                 <nav className='nav'>
                     <div className='nav__menu'>
