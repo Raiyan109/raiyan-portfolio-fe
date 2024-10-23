@@ -1,7 +1,5 @@
-import { BiHome, BiUser, BiBriefcase, BiLayer, BiMenuAltRight } from 'react-icons/bi'
-import { FaUserGraduate } from 'react-icons/fa'
-
-import { HiOutlineChatBubbleBottomCenterText } from 'react-icons/hi2'
+import { BiHome, BiMenuAltRight } from 'react-icons/bi'
+import { FaEdit } from "react-icons/fa";
 import './adminSidebar.css'
 import { useEffect, useRef, useState } from 'react'
 import { motion } from "framer-motion";
@@ -47,17 +45,10 @@ const AdminSidebar = () => {
                         <ul className='nav__list'>
                             <li className='nav__item'>
                                 <Link to='/admin-dashboard/create-blog' className="nav__link">
-                                    <BiHome />
+                                    <FaEdit />
                                 </Link>
                             </li>
 
-
-
-                            <li className='nav__item'>
-                                <a href="#contact" className="nav__link">
-                                    <HiOutlineChatBubbleBottomCenterText />
-                                </a>
-                            </li>
 
                         </ul>
                     </div>

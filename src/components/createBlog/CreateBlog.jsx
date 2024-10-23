@@ -56,7 +56,7 @@ const CreateBlog = () => {
                             </div>
                         </div>
 
-                        <div className="col">
+                        <div className="col pb-32">
                             <div className="form-group">
                                 <ReactQuill theme="snow" value={body} onChange={setBody} />
                             </div>

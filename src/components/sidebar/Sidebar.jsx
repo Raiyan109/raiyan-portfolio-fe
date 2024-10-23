@@ -1,5 +1,5 @@
 import { BiHome, BiUser, BiBriefcase, BiLayer, BiMenuAltRight } from 'react-icons/bi'
-import { FaUserGraduate } from 'react-icons/fa'
+import { FaUserGraduate, FaLightbulb } from 'react-icons/fa'
 import { MdEditNote } from 'react-icons/md'
 import { HiOutlineChatBubbleBottomCenterText } from 'react-icons/hi2'
 import './sidebar.css'
@@ -59,6 +59,12 @@ const Sidebar = () => {
                             <li className='nav__item'>
                                 <a href="#services" className="nav__link">
                                     <BiBriefcase />
+                                </a>
+                            </li>
+
+                            <li className='nav__item'>
+                                <a href="#skills" className="nav__link">
+                                    <FaLightbulb />
                                 </a>
                             </li>
 
