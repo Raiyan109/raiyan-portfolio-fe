@@ -76,7 +76,7 @@ const Portfolio = () => {
                                         <div className="work__mask"></div>
                                     </div>
 
-                                    <span className="work__category">{category}</span>
+                                    <span className="work__category">{category.join(', ')}</span>
                                     <h3 className="work__title">{title}</h3>
                                     {/* <div className="work__button">
                                         <BsLink45Deg className='work__button-icon absolute top-3 left-3' />

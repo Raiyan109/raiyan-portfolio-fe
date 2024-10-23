@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import parse from "html-react-parser";
 import axios from "axios";
+import moment from "moment/moment";
 
 const BlogDetails = () => {
     const { id } = useParams()
@@ -37,12 +38,12 @@ const BlogDetails = () => {
                         <h1 href="#" className=" font-bold text-3xl mb-2">{blog?.title}</h1>
                         <p className=" text-xs mt-2">Written By:
                             <a href="#"
-                                className="text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out">
+                                className="text-indigo-600 font-medium hover:text-indigo-400 transition duration-500 ease-in-out">
                                 Raiyan Kabir
                             </a> at
                             <a href="#"
-                                className="text-xs text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out">
-                                {blog?.createdAt}
+                                className="text-xs text-indigo-600 font-medium hover:text-indigo-400 transition duration-500 ease-in-out">
+                                {moment(blog?.createdAt).format("MMM Do YY")}
                             </a>
                         </p>
 
