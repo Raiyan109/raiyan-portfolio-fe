@@ -1,10 +1,12 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 import AdminSidebar from "./AdminSidebar"
+import { useNavigate } from "react-router-dom"
 
 
 const AdminWelcome = () => {
     const [blogs, setBlogs] = useState([])
+    const navigate = useNavigate()
 
     useEffect(() => {
         (async () => {
@@ -14,6 +16,11 @@ const AdminWelcome = () => {
         })()
     }, [])
 
+    const handleLogout = () => {
+        localStorage.removeItem('userInfo');
+        navigate('/admin-login');
+    };
+
     return (
 
         <div className=''>
@@ -21,6 +28,7 @@ const AdminWelcome = () => {
                 <AdminSidebar />
             </div>
             <div className="ml-0 md:ml-[80px]">
+                <button className="px-4 py-2 my-4 font-medium text-white bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline-blue active:bg-blue-600 transition duration-150 ease-in-out" onClick={handleLogout}>Logout</button>
                 <div className="p-20">
                     <table className="min-w-full divide-y divide-gray-200 border border-gray-200">
                         <thead>
