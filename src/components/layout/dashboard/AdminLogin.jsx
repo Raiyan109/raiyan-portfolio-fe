@@ -23,7 +23,8 @@ const AdminLogin = () => {
 
             setLoading(true);
             const res = await axios.post('https://raiyan-portfolio-be.vercel.app/api/v1/auth/login', userInfo)
-            console.log(res);
+
+            localStorage.setItem('userInfo', res.data);
 
 
             setLoading(false);
