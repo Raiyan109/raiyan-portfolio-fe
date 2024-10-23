@@ -1,12 +1,14 @@
 import './portfolio.css'
 import Menu from './Menu';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { BsLink45Deg } from 'react-icons/bs'
 import { AnimatePresence, motion } from 'framer-motion'
 import Modal from './Modal';
+import axios from 'axios';
 
 const Portfolio = () => {
-    const [items, setItems] = useState(Menu)
+    const [items, setItems] = useState([])
+    const [projects, setProjects] = useState([])
     const [itemId, setItemId] = useState('')
     const [modalOpen, setModalOpen] = useState(false);
     const close = () => setModalOpen(false);
@@ -24,11 +26,26 @@ const Portfolio = () => {
         }
     }
     const filterItem = (categoryItem) => {
-        const updatedItems = Menu.filter((updatedItem) => {
-            return updatedItem.category === categoryItem;
+        const updatedItems = projects.filter((updatedItem) => {
+            const categories = updatedItem.category.includes(categoryItem);
+
+            return categories
         })
         setItems(updatedItems)
     }
+
+    useEffect(() => {
+        (async () => {
+            try {
+                const res = await axios.get('https://raiyan-portfolio-be.vercel.app/api/v1/bio/project');
+
+                setProjects(res.data.data); // Store the fetched projects in state
+                setItems(res.data.data); // Initially set all items to the fetched projects
+            } catch (error) {
+                console.error('Error fetching projects:', error);
+            }
+        })();
+    }, []);
 
     return (
         <>
@@ -41,7 +58,7 @@ const Portfolio = () => {
                 <h2 className="section__title">Recent Works</h2>
 
                 <div className="work__filters">
-                    <span className="work__item" onClick={() => setItems(Menu)}>Everything</span>
+                    <span className="work__item" onClick={() => setItems(projects)}>Everything</span>
                     <span className="work__item" onClick={() => filterItem('MERN')}>MERN</span>
                     <span className="work__item" onClick={() => filterItem('Frontend')}>Frontend</span>
                     <span className="work__item" onClick={() => filterItem('Backend')}>Backend</span>
@@ -51,9 +68,9 @@ const Portfolio = () => {
                 <div className="work__container grid">
                     {
                         items.map((item) => {
-                            const { id, image, title, category, liveLink } = item
+                            const { _id, image, title, category } = item
                             return (
-                                <div className="work__card" key={id}>
+                                <div className="work__card" key={_id}>
                                     <div className="work__thumbnail">
                                         <img src={image} alt="" className="work__img" />
                                         <div className="work__mask"></div>
@@ -68,7 +85,7 @@ const Portfolio = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                         className="work__button"
-                                        onClick={() => showModal(id)}
+                                        onClick={() => showModal(_id)}
                                     >
                                         <BsLink45Deg className='work__button-icon absolute top-3 left-3' />
                                     </motion.button>

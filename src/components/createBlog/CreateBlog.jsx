@@ -23,7 +23,7 @@ const CreateBlog = () => {
             console.log(blogDetails);
 
             setLoading(true);
-            const res = await axios.post('http://localhost:5000/api/v1/blog', blogDetails)
+            const res = await axios.post('https://raiyan-portfolio-be.vercel.app/api/v1/blog', blogDetails)
             console.log(res);
 
             setLoading(false);

@@ -10,7 +10,7 @@ const Blogs = () => {
 
     useEffect(() => {
         (async () => {
-            const res = await axios.get('http://localhost:5000/api/v1/blog')
+            const res = await axios.get('https://raiyan-portfolio-be.vercel.app/api/v1/blog')
             // console.log(res.data.data);
             setBlogs(res.data.data)
         })()

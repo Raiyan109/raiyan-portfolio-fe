@@ -9,7 +9,7 @@ const Skills = () => {
 
     useEffect(() => {
         (async () => {
-            const res = await axios.get('http://localhost:5000/api/v1/bio/skill')
+            const res = await axios.get('https://raiyan-portfolio-be.vercel.app/api/v1/bio/skill')
             // console.log(res.data.data);
             setSkills(res.data.data)
         })()
